@@ -1,0 +1,44 @@
+$logoCor: rgba(47, 174, 191, 1);
+$fontWeight: 500;
+$fontSize: 64px;
+$LineHeight: 92.67px;
+$corSpan: rgba(243, 113, 45, 1);
+$--texto-claro: rgba(255, 255, 255, 1);
+
+header {
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+    line-height: $LineHeight;
+    color: $logoCor;
+    margin-left: 99px;
+    margin-top: 19px;
+}
+
+span {
+    color: $corSpan;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.ilustracao-capivara-homepage {
+    width: 50%;
+}
+.img {
+    height: 100%;
+    width: 99%;
+}
+
+.texto__ancoras__container {
+    width: 40%;
+}
+
+.texto {
+    font-size: $fontSize;
+    font-weight: 700;
+    line-height: $LineHeight;
+    color: $--texto-claro;
+}
