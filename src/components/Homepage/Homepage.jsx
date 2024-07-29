@@ -12,7 +12,7 @@ function Homepage () {
                 </div>
                 <div className='texto__ancoras__container'>
                     <p className='texto'>Alcançar seus objetivos ficou mais fácil e divertido !</p>
-                    <a>Cadastre-se</a> <a>Entrar</a>
+                    <a className='btn_cadastro'>Cadastre-se</a> <a className='btn_entrar'>Entrar</a>
                 </div>
             </section>
         </>

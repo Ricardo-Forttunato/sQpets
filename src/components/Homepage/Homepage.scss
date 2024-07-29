@@ -21,13 +21,18 @@ span {
 .conteudo {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    align-items: center;
+    margin-top: 48px;
+    // box-sizing: border-box;
+    height: 70vh;
 }
 
 .ilustracao-capivara-homepage {
     width: 50%;
-}
+} 
+
 .img {
+    margin-top: 250px;
     height: 100%;
     width: 99%;
 }
@@ -41,4 +46,85 @@ span {
     font-weight: 700;
     line-height: $LineHeight;
     color: $--texto-claro;
+}
+
+a {
+    cursor: pointer;
+}
+
+.btn_cadastro {
+    background-color: rgba(47, 174, 191, 1);
+    color: $--texto-claro;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69.5px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.btn_entrar {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69.5px;
+    border-radius: 10px;
+    padding: 0 20px;
+    color: rgba(47, 174, 191, 1);
+    background-color: rgba(190, 247, 255, 1);
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        margin-left: 33px;
+        margin-top: 0;
+    }
+    .conteudo {
+        display: block;
+        flex-direction: column;
+    }
+
+    .ilustracao-capivara-homepage {
+        width: 100%;
+    }
+
+    .img {
+        margin-top: 0;
+    }
+
+    .texto__ancoras__container {
+        width: 100%;
+    }
+
+    .texto {
+        font-size: 20px;
+        line-height: 22px;
+        padding: 1em;
+        margin-bottom: 20px;
+    }
+
+    a {
+        
+    }
+
+    .btn_cadastro {
+        background-color: rgba(47, 174, 191, 1);
+        color: $--texto-claro;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 20px;
+        border-radius: 10px;
+        padding: 0 20px;
+        margin-left: 1em;
+        
+    }
+    
+    .btn_entrar {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 20px;
+        border-radius: 10px;
+        padding: 0 20px;
+        color: rgba(47, 174, 191, 1);
+        background-color: rgba(190, 247, 255, 1);
+    }
 }
